@@ -1,0 +1,4 @@
+# API Keys for External Services
+API_KEY
+DATABASE_URL
+NEXT_PUBLIC_ANALYTICS_ID
