@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { LayoutDashboard, PlusCircle, List, Settings, Activity, Menu, X, LogOut, User as UserIcon } from 'lucide-react';
+import React, { useState } from 'react';
+import { LayoutDashboard, PlusCircle, List, Activity, Menu, X, LogOut, User as UserIcon } from 'lucide-react';
 import { Ticket, User } from './types';
 import Dashboard from './components/Dashboard';
 import TicketForm from './components/TicketForm';

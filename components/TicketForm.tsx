@@ -41,8 +41,8 @@ const TicketForm: React.FC<TicketFormProps> = ({ onAddTicket }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const newTicket: Ticket = {
-      id: `REQ-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${Math.floor(Math.random() * 1000)}`,
       ...formData as Ticket,
+      id: `REQ-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${Math.floor(Math.random() * 1000)}`,
       createdAt: new Date().toISOString()
     };
     onAddTicket(newTicket);

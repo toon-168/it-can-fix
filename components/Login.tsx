@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, UserRole } from '../types';
+import { User } from '../types';
 import { Lock, User as UserIcon, Activity } from 'lucide-react';
 
 interface LoginProps {

@@ -9,8 +9,6 @@ interface DashboardProps {
   tickets: Ticket[];
 }
 
-const COLORS = ['#3b82f6', '#f59e0b', '#10b981', '#ef4444'];
-
 const Dashboard: React.FC<DashboardProps> = ({ tickets }) => {
   // Calculate Stats
   const total = tickets.length;
